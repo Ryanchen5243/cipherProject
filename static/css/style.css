@@ -1,9 +1,15 @@
 body {
     background-color: #b5d1ff;
     text-decoration: none;
-    color: bisque;
+    color: rgb(94, 84, 175);
     font-family: 'Fondamento', cursive;
     text-align: center;
+}
+
+h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 input {
@@ -15,3 +21,4 @@ input {
     font-size: 45px;
 
 }
+
