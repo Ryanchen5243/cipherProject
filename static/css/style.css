@@ -1,8 +1,9 @@
 body {
-    background-color: blue;
-
+    background-color: #b5d1ff;
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
 }
 
-h1 {
-    color: red;
-}
+

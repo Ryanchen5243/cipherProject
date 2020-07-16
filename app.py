@@ -14,15 +14,14 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template("index.html")
+    return render_template('index.html')
 
-@app.route('/results', methods = ["GET","POST"])
+
+@app.route('/results', methods=["GET", "POST"])
 def results():
     if request.method == "POST":
         user_message = request.form["original_message"]
         enc_message = model.caesar_cipher(user_message)
-
         return render_template('results.html', user_message=user_message, enc_message=enc_message)
     else:
         return "Error"
-
